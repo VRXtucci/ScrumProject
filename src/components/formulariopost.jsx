@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function form() {
   return (
-    <div className='flex justify-center align-items-center h-screen w-screen'>
+    <div className='flex justify-center align-items-center h-screen w-screen bg-gray-700'>
       <form className='flex flex-col w-3/5 justify-center gap-4 '>
         <label htmlFor="title" className='text-gray-400'>Title</label>
         <input type="text" className='border rounded-md focus:outline-none p-2' />
