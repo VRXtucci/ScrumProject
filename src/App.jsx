@@ -1,9 +1,10 @@
-import Form from "./components/formulariopost"
+
+import AppRouter from './AppRouter';
 
 export default function App() {
   return (
     <>
-      <Form/>
+    <AppRouter/>
     </>
   )
 }
